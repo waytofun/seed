@@ -1,0 +1,21 @@
+<html lang="en" ng-app="myApp"> 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<header>
+  <nav><a ui-sref='home'>HOME</a><br><a ui-sref='state1'>State 1</a><br><a ui-sref='state2'>State 2</a></nav>
+</header>
+<body>
+  <div ui-view></div>
+</body>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/directives/someDir.js"></script>
+</html>
+ 
